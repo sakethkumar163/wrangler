@@ -16,8 +16,7 @@
 
 package io.cdap.wrangler.test.api;
 
-import java.util.ArrayList;
-import java.util.List;
+import java.util.*;
 
 /**
  * Class description here.
@@ -40,6 +39,7 @@ public final class TestRecipe {
   public String[] toArray() {
     String[] array = new String[directives.size()];
     array = directives.toArray(array);
+    System.out.println("sdb vdjsb");
     return array;
   }
 }
